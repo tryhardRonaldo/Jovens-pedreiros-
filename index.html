@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jovens Pedreiros</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+header{
+    background:#1f3c5c;
+    color:white;
+    padding:20px 10%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+header h1{
+    color:#ffae00;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:500;
+}
+
+.hero{
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('https://images.unsplash.com/photo-1503387762-592deb58ef4e');
+    background-size:cover;
+    background-position:center;
+    color:white;
+    text-align:center;
+    padding:120px 20px;
+}
+
+.hero h2{
+    font-size:48px;
+}
+
+.hero p{
+    margin:20px 0;
+    font-size:20px;
+}
+
+.btn{
+    background:#ff6600;
+    color:white;
+    padding:15px 30px;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:600;
+}
+
+.section{
+    padding:60px 10%;
+    text-align:center;
+}
+
+.section h3{
+    margin-bottom:40px;
+    font-size:32px;
+    color:#1f3c5c;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card img{
+    width:100%;
+    border-radius:8px;
+    margin-bottom:15px;
+}
+
+.card h4{
+    color:#ff6600;
+    margin-bottom:10px;
+}
+
+footer{
+    background:#1f3c5c;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Jovens Pedreiros</h1>
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Curso</a>
+        <a href="#">Equipamentos</a>
+        <a href="#">Contato</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Construa Seu Futuro!</h2>
+    <p>Aprenda a construir casas do zero com profissionais experientes.</p>
+    <a href="#" class="btn">Inscreva-se Agora</a>
+</section>
+
+<section class="section">
+    <h3>O que você vai aprender</h3>
+    <div class="cards">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1581090700227-1e8f0b8f8e1b">
+            <h4>Levantamento de Paredes</h4>
+            <p>Técnicas modernas de construção e alinhamento perfeito.</p>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1581091215367-59ab6f4f8b98">
+            <h4>Instalações</h4>
+            <p>Instalação elétrica, hidráulica e acabamento profissional.</p>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1590650516494-0c8f6f5e8c2b">
+            <h4>Cobertura e Telhados</h4>
+            <p>Aprenda a montar estruturas seguras e resistentes.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <h3>Melhores Equipamentos</h3>
+    <div class="cards">
+        <div class="card">
+            <h4>Betoneira Profissional</h4>
+            <p>Alta capacidade e resistência.</p>
+        </div>
+        <div class="card">
+            <h4>Nível a Laser</h4>
+            <p>Precisão e alinhamento perfeito.</p>
+        </div>
+        <div class="card">
+            <h4>Martelete Rompedor</h4>
+            <p>Potência para grandes obras.</p>
+        </div>
+        <div class="card">
+            <h4>Serra Circular</h4>
+            <p>Cortes rápidos e precisos.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    © 2026 Jovens Pedreiros - Todos os direitos reservados
+</footer>
+
+</body>
+</html>
